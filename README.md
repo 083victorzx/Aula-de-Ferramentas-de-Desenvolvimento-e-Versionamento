@@ -43,28 +43,6 @@ O sistema permite converter entre diversas unidades como **Joule**, **Caloria** 
 
 ---
 
-## 🏷️ Versionamento
-
-Este projeto segue o modelo de **Versionamento Semântico (SemVer)** e o fluxo de branches baseado no artigo _A successful Git branching model_.
-
-- **main** → versões estáveis (com tags)  
-- **dev** → ambiente de desenvolvimento  
-
----
-
-## 📦 Versões
-
-### ✅ v1.0.0 — Primeira versão funcional  
-- Conversão básica implementada  
-- Layout simples
-
-### ✅ v1.1.0 — Segunda versão  
-- Layout melhorado  
-- Estilo aprimorado  
-- Interface mais agradável  
-
----
-
 ## 📄 Como Executar
 
 Basta baixar o repositório e abrir o arquivo **index.html** em qualquer navegador:
