@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Energia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Conversor de Unidades de Energia</h2>
+
+<label>Valor:</label>
+<input type="number" id="valor">
+
+<label>Converter de:</label>
+<select id="de">
+    <option value="joule">Joule (J)</option>
+    <option value="cal">Caloria (cal)</option>
+    <option value="kwh">kWh</option>
+</select>
+
+<label>Para:</label>
+<select id="para">
+    <option value="joule">Joule (J)</option>
+    <option value="cal">Caloria (cal)</option>
+    <option value="kwh">kWh</option>
+</select>
+
+<button onclick="converter()">Converter</button>
+
+<p id="resultado"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
