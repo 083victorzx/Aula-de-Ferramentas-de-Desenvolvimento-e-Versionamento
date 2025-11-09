@@ -19,3 +19,20 @@ button {
     padding: 8px;
     cursor: pointer;
 }
+body {
+    background-color: #f5f5f5; /* cor de fundo mais clara */
+    padding: 20px; /* mais espaço ao redor */
+}
+
+.container {
+    padding: 20px; /* aumenta espaço interno */
+    border-radius: 12px; /* bordas mais arredondadas */
+    background-color: white; /* fundo branco para destacar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* leve sombra */
+}
+
+input, select, button {
+    margin-top: 10px;
+    border-radius: 8px; /* bordas mais suaves */
+}
+
