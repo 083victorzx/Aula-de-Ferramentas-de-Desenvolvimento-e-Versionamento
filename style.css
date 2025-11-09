@@ -35,4 +35,12 @@ input, select, button {
     margin-top: 10px;
     border-radius: 8px; /* bordas mais suaves */
 }
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+
 
