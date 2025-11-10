@@ -1,5 +1,4 @@
 function converter() {
-    //teste js dia 09/11
     let valor = parseFloat(document.getElementById("valor").value);
     let de = document.getElementById("de").value;
     let para = document.getElementById("para").value;
