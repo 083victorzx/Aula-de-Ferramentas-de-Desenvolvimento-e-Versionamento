@@ -8,28 +8,30 @@
 </head>
 <body>
 
-<h1>Conversor Universal de Energia</h1>
+<div class="container">
+    <h1>Conversor Universal de Energia</h1>
 
-<label>Valor:</label>
-<input type="number" id="valor">
+    <label>Valor:</label>
+    <input type="number" id="valor">
 
-<label>Converter de:</label>
-<select id="de">
-    <option value="joule">Joule (J)</option>
-    <option value="cal">Caloria (cal)</option>
-    <option value="kwh">kWh</option>
-</select>
+    <label>Converter de:</label>
+    <select id="de">
+        <option value="joule">Joule (J)</option>
+        <option value="cal">Caloria (cal)</option>
+        <option value="kwh">kWh</option>
+    </select>
 
-<label>Para:</label>
-<select id="para">
-    <option value="joule">Joule (J)</option>
-    <option value="cal">Caloria (cal)</option>
-    <option value="kwh">kWh</option>
-</select>
+    <label>Para:</label>
+    <select id="para">
+        <option value="joule">Joule (J)</option>
+        <option value="cal">Caloria (cal)</option>
+        <option value="kwh">kWh</option>
+    </select>
 
-<button onclick="converter()">Converter</button>
+    <button onclick="converter()">Converter</button>
 
-<p id="resultado"></p>
+    <p id="resultado"></p>
+</div>
 
 <footer>Projeto desenvolvido para a disciplina de Ferramentas de Desenvolvimento e Versionamento.</footer>
 
