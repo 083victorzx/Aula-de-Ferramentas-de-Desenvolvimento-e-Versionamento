@@ -28,13 +28,22 @@ label {
 }
 
 input, select {
-    width: 200px;
-    padding: 5px;
+    width: 250px; /* todas as caixas com o mesmo tamanho */
+    padding: 8px;
     margin-top: 5px;
+    margin-bottom: 15px; /* espaço entre as caixas */
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao-container {
+    margin-top: 25px; /* espaço maior entre a última caixa e o botão */
 }
 
 button {
-    margin-top: 15px;
     padding: 12px;
     cursor: pointer;
     background-color: #e63946;
@@ -42,6 +51,7 @@ button {
     border: none;
     border-radius: 6px;
     transition: background 0.3s;
+    width: 160px;
 }
 
 button:hover {
