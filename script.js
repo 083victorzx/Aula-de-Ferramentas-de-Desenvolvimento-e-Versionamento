@@ -1,3 +1,9 @@
+// Função de mudança de cor criada por João Victor dos Santos - ADS
+function mudarCorContainer() {
+    const container = document.querySelector(".container");
+    container.style.backgroundColor = "lightblue";
+}
+
 function converter() {
     let valor = parseFloat(document.getElementById("valor").value);
     let de = document.getElementById("de").value;
