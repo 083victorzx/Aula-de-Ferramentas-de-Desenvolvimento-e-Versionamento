@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: rgb(247, 167, 167);
+    background-color: rgb(243, 155, 155);
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -60,7 +60,7 @@ button:hover {
 
 #resultado {
     font-weight: bold;
-    color: #082038;
+    color: #072747;
     margin-top: 15px;
 }
 
