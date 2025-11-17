@@ -1,4 +1,4 @@
-// Função de mudança de cor criada por João Victor dos Santos - ADS
+// Função de mudança de cor criada 
 function mudarCorContainer() {
     const container = document.querySelector(".container");
     container.style.backgroundColor = "lightblue";
@@ -12,7 +12,7 @@ function converter() {
     if (isNaN(valor)) {
         document.getElementById("resultado").innerText = "Digite um valor válido!";
         return;
-    }
+}
 
     // Converte "de" para Joules (J)
     if (de === "cal") valor *= 4.184;
