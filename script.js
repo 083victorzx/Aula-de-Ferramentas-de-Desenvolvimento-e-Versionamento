@@ -4,6 +4,15 @@ function mudarCorContainer() {
     container.style.backgroundColor = "lightblue";
 }
 
+// Função para limpar o input e o resultado — adicionada por João Lucena
+function limpar() {
+    const input = document.getElementById("valor");
+    const resultado = document.getElementById("resultado");
+    input.value = "";
+    resultado.innerText = "";
+    input.focus();
+}
+
 function converter() {
     let valor = parseFloat(document.getElementById("valor").value);
     let de = document.getElementById("de").value;
