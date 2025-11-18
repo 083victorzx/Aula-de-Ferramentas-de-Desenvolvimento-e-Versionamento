@@ -40,7 +40,7 @@ O sistema permite converter entre diversas unidades como **Joule**, **Caloria** 
 |------|--------|
 | João Victor dos Santos | [083victorzx](https://github.com/083victorzx) |
 | Carlos Eduardo dos Santos | [083duduzx](https://github.com/083duduzx) |
-| João  | [083duduzx](https://github.com/083duduzx) |
+| João  | [Joao22022](https://github.com/Joao22022) |
 
 
 ---

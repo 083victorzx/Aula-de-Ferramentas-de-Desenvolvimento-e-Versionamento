@@ -47,7 +47,7 @@ button {
     padding: 12px;
     cursor: pointer;
     background-color: #e63946;
-    color: white;
+    color: rgb(248, 233, 233);
     border: none;
     border-radius: 6px;
     transition: background 0.3s;
@@ -55,7 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #d62828;
+    background-color: #dd2f2f;
 }
 
 #resultado {
