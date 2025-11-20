@@ -31,5 +31,22 @@ function converter() {
     if (para === "cal") valor /= 4.184;
     if (para === "kwh") valor /= 3600000;
 
-    document.getElementById("resultado").innerText = "Resultado: " + valor;
+    const resultado = document.getElementById("resultado");
+    resultado.classList.remove("resultado-placeholder");
+    resultado.innerText = "Resultado: " + valor;
 }
+
+const selectDe = document.getElementById("de");
+const selectPara = document.getElementById("para");
+const botao = document.getElementById("btnConverter");
+
+function verificarSelecao() {
+    if (selectDe.value && selectPara.value) {
+        botao.disabled = false;
+    } else {
+        botao.disabled = true;
+    }
+}
+
+selectDe.addEventListener("change", verificarSelecao);
+selectPara.addEventListener("change", verificarSelecao);
