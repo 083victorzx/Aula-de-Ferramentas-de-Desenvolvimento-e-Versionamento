@@ -71,3 +71,7 @@ button:hover {
     margin-top: 15px;
 }
 
+.resultado-placeholder {
+    color: #444;
+    font-style: italic;
+}
