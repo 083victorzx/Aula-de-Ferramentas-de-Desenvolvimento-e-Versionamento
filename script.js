@@ -33,7 +33,7 @@ function converter() {
 
     const resultado = document.getElementById("resultado");
     resultado.classList.remove("resultado-placeholder");
-    resultado.innerText = "Resultado: " + valor;
+    resultado.innerText = "Resultado: " + valor.toFixed(2);
 }
 
 const selectDe = document.getElementById("de");
