@@ -34,6 +34,17 @@ O sistema permite converter entre diversas unidades como **Joule**, **Caloria** 
 
 ---
 
+## Funções do Sistema
+
+### mudarCorContainer()
+
+Essa função permite alterar dinamicamente a cor de fundo do container principal do sistema.
+Ela é acionada pelo botão "Mudar Cor" e tem como objetivo melhorar a experiência visual do usuário.
+
+Exemplo:
+Quando clicado, o fundo do container muda para azul claro.
+
+
 ## 👥 Integrantes do Grupo
 
 | Nome | GitHub |
